@@ -1,0 +1,143 @@
+*,::before,::after{
+    /* 选择所有的标签 */
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: aqua;
+    /* 设计所有的都是以边框开始计算宽度百分比 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color:floralwhite;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.hm_header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+}
+.hm_header>.hm_header_box{
+    width: 100%;
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    /* 设置透明度 */
+    background: rgba(201, 21, 35, 0);
+    height: 40px;
+  position: relative;
+}
+.hm_header > .hm_header_box >.icon_logo{
+    width: 60px;
+    height: 36px;
+    position: absolute ;
+    background-position: 0 -103px;
+    top:4px;
+    left: 10px;
+}
+.hm_header>.hm_header_box>.login{
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+}
+/* header{
+    background: url(http://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJ1bKzc-IbfReAAvwduqMOHoAALJEQMpdhEAC_CO757.jpg);
+} */
+/* .login{
+    margin-top: -25;
+    margin-left: 400px;
+    position:absolute;
+   margin-top: 0px;
+ 
+
+} */
+
+
+ input{
+    border-radius: 15px;
+    height: 35px;
+    width: 250px;
+}
+
+.hm_header > .hm_header_box > form{
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 50px;
+    height: 40px;
+    position: relative;
+}
+.hm_nar{
+    width: 100%;
+    background: firebrick;
+    border-bottom: 1px solid fuchsia;
+
+}
+.hm_nav>ul{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.hm_nav>ul>li{
+width: 25%;
+float: left;
+}
+
+
+.hm_nav>ul>li>a{
+    display: block;
+}
+
+.hm_nav>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hm_nav>ul>li>a>p{
+    text-align: center;
+    color: forestgreen;
+    font-size: 12px;
+    padding: 6px;
+}
+/* 秒杀 */
+.hm_sk{
+
+}
+.hm_sk .sk_icon{
+    background: url() no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+
+}
+.hm_sk .sk_name{
+    color:antiquewhite;
+font-size: 15px;
+float: left;
+}
+.hm_sk .sk_time{
+    float: left;
+    margin-top: 8px;
+}
