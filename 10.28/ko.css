@@ -86,12 +86,16 @@ a:hover{
     position: relative;
 }
 .hm_nar{
+   
     width: 100%;
     background: firebrick;
     border-bottom: 1px solid fuchsia;
 
 }
+
 .hm_nav>ul{
+    position: absolute;
+    top: 350px;
     width: 100%;
     padding: 10px 0;
 }
@@ -140,4 +144,36 @@ float: left;
 .hm_sk .sk_time{
     float: left;
     margin-top: 8px;
+}
+
+/* div #images{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+} */
+
+#images{
+    /* 子绝父相 */
+    position: relative;
+}
+#images>a{
+    /* transition效果需要指定多少秒或毫秒才能完成 */
+    /* linear 函数用于创建一个线性渐变的 "图像" */
+transition: opacity 1s linear;
+position: absolute;
+top: 200;
+left: 0;
+
+}
+.displayImg{
+    display: block;
+
+    /* Opacity属性设置一个元素了透明度级别 */
+          opacity: 1;
+}
+.hiddenImg{
+/* display: none; */
+
+opacity: 0;
 }
