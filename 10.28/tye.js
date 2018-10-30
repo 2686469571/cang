@@ -44,7 +44,7 @@ function stopChange(){
 function startChange(){
     timer=window.setInterval(changeImg,1000);
 }
-var imagesDiv=document.getElementById("inages");
+var imagesDiv=document.getElementById("images");
 //为图像DIV注
 imagesDiv.addEventListener('mouseover',stopChange);
 imagesDiv.addEventListener('mouseout',startChange);
