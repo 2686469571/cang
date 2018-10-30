@@ -95,7 +95,7 @@ a:hover{
 
 .hm_nav>ul{
     position: absolute;
-    top: 350px;
+    top: 310px;
     width: 100%;
     padding: 10px 0;
 }
@@ -162,7 +162,7 @@ float: left;
     /* linear 函数用于创建一个线性渐变的 "图像" */
 transition: opacity 1s linear;
 position: absolute;
-top: 200;
+top: 0;
 left: 0;
 
 }

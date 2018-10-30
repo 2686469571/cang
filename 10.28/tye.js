@@ -35,3 +35,16 @@ function changeImg(){
 
 var timer=window.setInterval(changeImg,1000)
 
+
+//鼠标移出后定时器
+function stopChange(){
+    window.clearInterval(timer);
+}
+// 鼠标移入后中设定时器
+function startChange(){
+    timer=window.setInterval(changeImg,1000);
+}
+var imagesDiv=document.getElementById("inages");
+//为图像DIV注
+imagesDiv.addEventListener('mouseover',stopChange);
+imagesDiv.addEventListener('mouseout',startChange);
