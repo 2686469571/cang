@@ -61,9 +61,10 @@ a:hover{
     top: 0;
     font-size: 15px;
 }
-/* header{
+header{
+    
     background: url(http://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJ1bKzc-IbfReAAvwduqMOHoAALJEQMpdhEAC_CO757.jpg);
-} */
+}
 /* .login{
     margin-top: -25;
     margin-left: 400px;
@@ -97,7 +98,7 @@ a:hover{
 
 .hm_nav>ul{
     position: absolute;
-    top: 310px;
+    top: 250px;
     width: 100%;
     padding: 10px 0;
 }
@@ -106,6 +107,7 @@ a:hover{
 width: 25%;
 float: left;
 }
+
 
 
 .hm_nav>ul>li>a{
@@ -129,6 +131,7 @@ float: left;
 .hm_sk{
 
 }
+
 .hm_sk .sk_icon{
     background: url() no-repeat;
     background-size: 16px 20px;
@@ -229,13 +232,15 @@ opacity: 0;
     margin-top: 6px;
 }
 .hm_sk .sk_name{
+    margin-top:8px;
     color: #d8505c;
     font-size: 15px;
     float: left;
 }
 .hm_sk .sk_time{
+   
     float: left;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .hm_sk .sk_time > span{
     float: left;
@@ -285,26 +290,11 @@ padding: 80px 0;
     color: #666;
     padding-top: 5px;
 }
-.w_50{
-    width: 50%;
-    display: block;
-}
-.w_50>img{
-    display: block;
-    width: 100%;
-}
-.b_left{
-    border-left: 1px solid #e0e0e0;
-}
-.b_right{
-    border-right: 1px solid #e0e0e0;
-}
-.b_bottom{
-    border-bottom: 1px solid #e0e0e0;
-}
 
-
-
+h3{
+    font-size: 15px;
+    color:slategray;
+}
 
 
 

@@ -1,0 +1,21 @@
+.w_50{
+    float: left;
+    width: 33.3%;
+    display: block;
+}
+.w_50>img{
+    display: block;
+    width: 100%;
+}
+.b_left{
+    border-left: 1px solid #e0e0e0;
+}
+.b_right{
+    border-right: 1px solid #e0e0e0;
+}
+.b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+.f_left{
+    float: left;
+}
